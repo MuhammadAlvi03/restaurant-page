@@ -78,7 +78,7 @@ body {
     align-items: center;
 }
 
-#content > main {
+.home {
     margin-top: 4rem;
     height: 40%;
     width: 40%;
@@ -113,4 +113,34 @@ body {
 
 .menu-button:active {
     box-shadow: inset -2px -4px #0004, inset 2px 2px #FFF5;
+}
+
+.mcsign {
+    margin: auto;
+    --scale: 1;
+    background-image: url(https://file.garden/X1htvgJ0DEp_tp-Z/MSPFA%20other/Minecraft/636163130158286359.png);
+    background-size: contain;
+    --padding: calc(var(--scale) * 5px);
+    height: calc(var(--scale) * (96px - 2 * var(--padding)));
+    width: calc(var(--scale) * (192px - 2 * var(--padding)));
+    text-align: center;
+    font-size: calc(var(--scale) * 18px);
+    line-height: calc(var(--scale) * (96px - 2 * var(--padding))/4);
+    padding: var(--padding);
+
+    display: flex;
+    flex-direction: column;
+}
+
+.mcsign > span:nth-child(1) {
+    font-size: 2rem;
+}
+
+.mcsign > span {
+    font-size: 1.5rem;
+    color: black;
+}
+
+.contact {
+    margin-top: 10rem;
 }
