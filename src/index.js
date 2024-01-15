@@ -1,6 +1,6 @@
 import './style.css';
 import initPage from './init';
-import header, { getNavButtons } from './header';
+import { getNavButtons } from './header';
 import home from './home';
 import menu from './menu';
 import contact from './contact';
